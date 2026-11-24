@@ -208,9 +208,9 @@ POST /login
 |---|---|
 | Casos planejados | 52 |
 | Executados | 52 (100%) |
-| ✅ Passou | 52 (100%) |
-| ❌ Falhou | 0 |
-| ⛔ Bloqueado | 0 |
+| Passou | 52 (100%) |
+| Falhou | 0 |
+| Bloqueado | 0 |
 | Defeitos registrados | 1 (documentação, severidade baixa) |
 | Sugestões de melhoria | 2 |
 
