@@ -1,4 +1,4 @@
-# 🧪 Testes de API – ServeRest
+# Testes de API – ServeRest
 
 Projeto de **testes funcionais de API (caixa-preta)** na [ServeRest](https://serverest.dev), uma API REST gratuita que simula uma loja virtual. Fiz o ciclo de QA inteiro, do planejamento ao relatório final: li o contrato no Swagger, tirei dele as regras de negócio, escrevi os casos de teste, executei tudo no Postman e registrei os resultados e os defeitos encontrados.
 
@@ -6,7 +6,7 @@ Projeto de **testes funcionais de API (caixa-preta)** na [ServeRest](https://ser
 
 ---
 
-## 📋 Sumário
+## Sumário
 
 - [Sobre o sistema testado](#-sobre-o-sistema-testado)
 - [Documentos do projeto](#-documentos-do-projeto)
@@ -22,7 +22,7 @@ Projeto de **testes funcionais de API (caixa-preta)** na [ServeRest](https://ser
 
 ---
 
-## 🛒 Sobre o sistema testado
+## Sobre o sistema testado
 
 | Item | Detalhe |
 |---|---|
@@ -35,7 +35,7 @@ Projeto de **testes funcionais de API (caixa-preta)** na [ServeRest](https://ser
 
 ---
 
-## 📂 Documentos do projeto
+## Documentos do projeto
 
 | Documento | O que contém |
 |---|---|
@@ -47,7 +47,7 @@ Projeto de **testes funcionais de API (caixa-preta)** na [ServeRest](https://ser
 
 ---
 
-## 🎯 Escopo
+## Escopo
 
 **Dentro do escopo**
 
@@ -68,7 +68,7 @@ Além das rotas, entraram a validação de contrato das respostas, a autenticaç
 
 ---
 
-## 📐 Regras de negócio mapeadas
+## Regras de negócio mapeadas
 
 Tirei estas regras da leitura do Swagger. Elas serviram de base para os casos de teste:
 
@@ -94,7 +94,7 @@ Tirei estas regras da leitura do Swagger. Elas serviram de base para os casos de
 
 ---
 
-## 🧭 Estratégia e técnicas de teste
+## Estratégia e técnicas de teste
 
 - **Testes positivos (caminho feliz):** o fluxo esperado de cada rota com dados válidos.
 - **Testes negativos:** campos ausentes ou vazios, tipos errados, valores fora do limite, IDs inexistentes e JSON malformado.
@@ -115,7 +115,7 @@ Tirei estas regras da leitura do Swagger. Elas serviram de base para os casos de
 
 ---
 
-## 🗂️ Casos de teste
+## Casos de teste
 
 **52 casos** distribuídos assim:
 
@@ -202,7 +202,7 @@ POST /login
 
 ---
 
-## 📊 Resultados da execução
+## Resultados da execução
 
 | Métrica | Valor |
 |---|---|
@@ -229,7 +229,7 @@ Os casos CT07, CT14, CT25 e CT42 foram reexecutados até ficarem conforme a espe
 
 ---
 
-## 🐞 Defeitos e melhorias
+## Defeitos e melhorias
 
 | ID | Descrição | Tipo | Severidade | Status |
 |---|---|---|:---:|---|
@@ -243,7 +243,7 @@ Os casos CT07, CT14, CT25 e CT42 foram reexecutados até ficarem conforme a espe
 
 ---
 
-## ⚠️ Limitações conhecidas
+## Limitações conhecidas
 
 Registro aqui com transparência o que ainda não foi coberto por completo:
 
@@ -254,7 +254,7 @@ Registro aqui com transparência o que ainda não foi coberto por completo:
 
 ---
 
-## 🛠️ Ferramentas
+## Ferramentas
 
 | Ferramenta | Uso |
 |---|---|
@@ -265,18 +265,15 @@ Registro aqui com transparência o que ainda não foi coberto por completo:
 
 ---
 
-## 🚀 Próximos passos
+## Próximos passos
 
 - [ ] Reportar o BUG-01 e as melhorias MEL-01 e MEL-02 no [repositório da ServeRest](https://github.com/ServeRest/ServeRest)
 - [ ] Automatizar a suíte com **Python + Playwright** (API testing), incluindo validação de schema
-- [ ] Gerar relatório com **Allure Report**
-- [ ] Rodar a automação na **ServeRest local** (`npx serverest`), para fugir do limite de requisições e dos dados compartilhados
-- [ ] Completar a cobertura dos casos listados em [Limitações conhecidas](#-limitações-conhecidas)
 
 ---
 
 ## 👤 Autor
 
-**MrOk**: QA em formação, com experiência em Suporte Técnico, Help Desk e Service Desk. Estudante de Análise e Desenvolvimento de Sistemas.
+**Rafael Riquelmy**: QA em formação, com experiência em Suporte Técnico, Help Desk e Service Desk. Estudante de Análise e Desenvolvimento de Sistemas.
 
 <!-- Adicione aqui seus links: LinkedIn, e-mail, portfólio -->
